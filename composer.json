@@ -1,0 +1,29 @@
+{
+    "name": "ckall/laravel-excel",
+    "description": "PHP Excel batch import and export automatic Repository Model Association repository, etc... (Laravel only!)",
+    "type": "library",
+    "require": {
+        "maatwebsite/excel": "3.1.*"
+    },
+    "license": "MIT",
+    "autoload" :{
+         "psr-4" : {
+              "Ckall\\Excel" : "src/"
+         }
+    },
+    "authors": [
+        {
+            "name": "charles",
+            "email": "738424295@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ckall\\Excel\\ExcelServiceProvider"
+            ]
+        }
+    }
+}
